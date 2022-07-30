@@ -1,0 +1,118 @@
+/* Variable */
+:root{
+  --primary-color: #000000;
+  --secondary-color: #1E1A13;
+}
+/* Estilos Generales */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  color: #ffffff;
+  font-family: Raleway;
+  background-color: var(--primary-color);
+}
+/* Estilos 1era Sección: Título */
+.section-title{
+  align-items: center;
+  background-color: var(--primary-color);
+  display: flex;
+  height: 7.3rem;
+  justify-content: center;
+  opacity: 1;
+}
+.section-title__font-size{
+  font-size: 3.2rem;
+}
+/* Estilos 2da Sección: Imagen Principal */
+.section-image-principal__image-size{
+  width: 100%;
+}
+/* Estilos 3era Sección: Artículo de iguanas más una imagen */
+.section-article{
+  align-items: center;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  opacity: 1;
+}
+.section-article-description{
+  align-items: center;
+  display: flex;
+  height: 19.7rem;
+  width: 47.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.section-article-description__p-size{
+  font-size: 1rem;
+  letter-spacing: 0px;
+}
+.container-image-secondary{
+  height: 23.7rem;
+  width: 39.9rem;
+}
+.container-image-article__size{
+  width: 100%;
+}
+/* Estilos 4ta Sección: Íconos */
+.section-icons{
+  background-color: var(--secondary-color);
+  height: 17.4rem;
+  padding-top: 3.5rem;
+  opacity: 0.98;
+}
+.section-icons-title__size-alignment{
+  text-align: center;
+  font-size: 2.4rem;
+  letter-spacing: 0px;
+}
+.section-icons-text{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
+}
+.position-icons {
+  text-align: center;
+}
+.section-icons-text__p-size{
+  font-size: 0.8rem;
+}
+/* Estilos 5ta Sección: Imágenes de distintas iguanas */
+.section-mix-images{
+  align-items: center;
+  background-color:var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  opacity: 0.96;
+}
+.container-section-mix-images__size-container{
+  height: 23.7rem;
+  width: 39.9rem;
+  text-align: center;
+}
+.section-mix-images__size{
+  width: 100%;
+}
+/*Estilos 6ta Sección: Footer */
+.footer{
+  display: flex;
+  height: 5.1rem;
+  background-color: var(--secondary-color);
+  align-items: center;
+  justify-content: center;
+  opacity: 0.94;
+}
+.footer a{
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}

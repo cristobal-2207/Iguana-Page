@@ -1,0 +1,27 @@
+/* Estilos 3era Sección: Artículo de iguanas más una imagen */
+.section-article{
+  height: 70rem;
+  padding-bottom: 10rem;
+}
+.section-article-description__p-size{
+  font-size: 1.6rem;
+}
+/* Estilos 4ta Sección: Íconos */
+.section-icons-text__p-size{
+  font-size: 1.6rem;
+}
+/* Estilos 5ta Sección: Imágenes de distintas iguanas */
+.section-mix-images{
+  height: 100rem;
+}
+.container-section-mix-images__size-container{
+  height: auto;
+  width: 39.9rem;
+}
+.section-mix-images__size{
+  width: 100%;
+}
+/*Estilos 6ta Sección: Footer */
+.footer a{
+  font-size: 1.6rem;
+}
